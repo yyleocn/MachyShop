@@ -1,0 +1,40 @@
+.page-home .posts-expand article.post-type-normal {
+    width: 49%;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+/*.page-home .posts-expand article.post-type-normal:nth-child(odd) {*/
+    /*margin-right: 1%;*/
+/*}*/
+
+.page-home .posts-expand article.post-type-normal .post-body h1 {
+    display: none;
+}
+
+.page-home .posts-expand article.post-type-normal .post-title-link {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.post-button{
+    margin-top: 10px;
+}
+
+.post-footer{
+    display: none;
+}
+
+.hide-title h1{
+    display: none !important;
+}
+
+.color-white {
+    color:#FFF !important;;
+}
+
+p.image-caption{
+    margin: 0;
+}
